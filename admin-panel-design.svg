@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000" fill="none">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#155E45"/>
+      <stop offset="1" stop-color="#20805B"/>
+    </linearGradient>
+    <linearGradient id="mapBg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F2F6EF"/>
+      <stop offset="1" stop-color="#E8F0E7"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="5" stdDeviation="12" flood-color="#173629" flood-opacity=".07"/>
+    </filter>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" stroke="#DCE8DC" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1440" height="1000" fill="#F6F8F6"/>
+
+  <!-- Sidebar -->
+  <rect width="252" height="1000" fill="#fff"/>
+  <rect x="251" width="1" height="1000" fill="#E9EEEA"/>
+  <rect x="28" y="27" width="42" height="42" rx="13" fill="url(#brand)"/>
+  <path d="M39 54V42L49 36L59 42V54H52V47H46V54H39Z" fill="white"/>
+  <text x="81" y="46" fill="#15251D" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">CatSU</text>
+  <text x="81" y="63" fill="#819087" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="500">ROOM MAPPER</text>
+  <text x="28" y="119" fill="#9AA69F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">WORKSPACE</text>
+
+  <rect x="16" y="137" width="220" height="44" rx="10" fill="#EAF4EE"/>
+  <rect x="16" y="137" width="3" height="44" rx="1.5" fill="#20805B"/>
+  <rect x="34" y="150" width="17" height="17" rx="4" fill="#D3E9DC"/>
+  <path d="M38 155H47M38 159H47M38 163H44" stroke="#18704C" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="62" y="165" fill="#176542" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="650">Overview</text>
+
+  <g fill="#536158" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="550">
+    <rect x="34" y="203" width="17" height="17" rx="4" fill="#F0F3F0"/>
+    <path d="M38 211H47M38 215H47M38 207H47" stroke="#68766D" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="62" y="217">Buildings</text>
+    <rect x="34" y="251" width="17" height="17" rx="4" fill="#F0F3F0"/>
+    <path d="M38 255H47V264H38zM41 258H44V261H41z" stroke="#68766D" stroke-width="1.3"/>
+    <text x="62" y="265">Rooms</text>
+    <rect x="34" y="299" width="17" height="17" rx="4" fill="#F0F3F0"/>
+    <circle cx="42.5" cy="307.5" r="5" stroke="#68766D" stroke-width="1.4"/>
+    <path d="M42.5 304V308L45 309.5" stroke="#68766D" stroke-width="1.3" stroke-linecap="round"/>
+    <text x="62" y="313">Map editor</text>
+    <rect x="34" y="347" width="17" height="17" rx="4" fill="#F0F3F0"/>
+    <path d="M38 359V353L42.5 350L47 353V359M41 359V355H44V359" stroke="#68766D" stroke-width="1.3" stroke-linejoin="round"/>
+    <text x="62" y="361">Colleges</text>
+  </g>
+
+  <text x="28" y="423" fill="#9AA69F" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">PREFERENCES</text>
+  <g fill="#536158" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="550">
+    <rect x="34" y="445" width="17" height="17" rx="4" fill="#F0F3F0"/>
+    <circle cx="42.5" cy="453.5" r="5" stroke="#68766D" stroke-width="1.4"/>
+    <path d="M42.5 447V449M42.5 458V460M36.5 453.5H38.5M46.5 453.5H48.5" stroke="#68766D" stroke-width="1.3" stroke-linecap="round"/>
+    <text x="62" y="458">Settings</text>
+    <rect x="34" y="493" width="17" height="17" rx="4" fill="#F0F3F0"/>
+    <circle cx="40" cy="499" r="2" stroke="#68766D" stroke-width="1.3"/>
+    <circle cx="46" cy="499" r="2" stroke="#68766D" stroke-width="1.3"/>
+    <path d="M36.5 506C36.5 503.5 43.5 503.5 43.5 506M42.5 506C42.5 503.5 49.5 503.5 49.5 506" stroke="#68766D" stroke-width="1.2"/>
+    <text x="62" y="506">Users &amp; roles</text>
+  </g>
+
+  <rect x="16" y="909" width="220" height="1" fill="#E9EEEA"/>
+  <circle cx="47" cy="947" r="17" fill="#E7EFE9"/>
+  <text x="47" y="951" text-anchor="middle" fill="#226B4D" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700">EA</text>
+  <text x="74" y="945" fill="#25342B" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="650">Earl Admin</text>
+  <text x="74" y="962" fill="#89958D" font-family="Inter, Arial, sans-serif" font-size="10">Administrator</text>
+  <circle cx="218" cy="947" r="2" fill="#86938A"/>
+  <circle cx="218" cy="954" r="2" fill="#86938A"/>
+  <circle cx="218" cy="961" r="2" fill="#86938A"/>
+
+  <!-- Main content -->
+  <rect x="252" width="1188" height="75" fill="#fff"/>
+  <path d="M252 74.5H1440" stroke="#E9EEEA"/>
+  <text x="286" y="46" fill="#839087" font-family="Inter, Arial, sans-serif" font-size="12">Workspace</text>
+  <path d="M352 42L356 46L352 50" stroke="#AAB4AD" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="369" y="46" fill="#28372E" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="650">Overview</text>
+  <rect x="1111" y="19" width="176" height="36" rx="9" fill="#F7F9F7" stroke="#E7ECE8"/>
+  <circle cx="1131" cy="37" r="6" stroke="#738078" stroke-width="1.5"/>
+  <path d="M1135.5 41.5L1140 46" stroke="#738078" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="1148" y="41" fill="#9AA59E" font-family="Inter, Arial, sans-serif" font-size="11">Search anything...</text>
+  <rect x="1301" y="19" width="36" height="36" rx="10" fill="#fff" stroke="#E7ECE8"/>
+  <path d="M1313 35C1313 31.7 1314.8 29.5 1318 29.5C1321.2 29.5 1323 31.7 1323 35V38L1325 40H1311L1313 38V35Z" stroke="#66746B" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M1316.5 43C1317 44.4 1319 44.4 1319.5 43" stroke="#66746B" stroke-width="1.4" stroke-linecap="round"/>
+  <circle cx="1326" cy="23" r="4" fill="#D97745" stroke="white" stroke-width="2"/>
+  <circle cx="1361" cy="37" r="18" fill="#E7EFE9"/>
+  <text x="1361" y="41" text-anchor="middle" fill="#226B4D" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700">EA</text>
+
+  <text x="286" y="123" fill="#1D2D23" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Good morning, Earl</text>
+  <text x="286" y="148" fill="#7E8B82" font-family="Inter, Arial, sans-serif" font-size="12">Here’s what’s happening across your campus today.</text>
+  <rect x="1192" y="105" width="127" height="38" rx="9" fill="#fff" stroke="#E2E9E3"/>
+  <path d="M1208 117H1220M1210 114V120M1218 114V120M1208 121H1220V132H1208z" stroke="#728077" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1229" y="129" fill="#526158" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="550">This semester</text>
+  <rect x="1328" y="105" width="84" height="38" rx="9" fill="#176B49"/>
+  <path d="M1344 124H1358M1351 117V131" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="1365" y="129" fill="white" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="650">Add new</text>
+
+  <!-- KPI cards -->
+  <g filter="url(#shadow)">
+    <rect x="286" y="174" width="260" height="126" rx="14" fill="#fff"/>
+    <rect x="563" y="174" width="260" height="126" rx="14" fill="#fff"/>
+    <rect x="840" y="174" width="260" height="126" rx="14" fill="#fff"/>
+    <rect x="1117" y="174" width="295" height="126" rx="14" fill="#fff"/>
+  </g>
+  <rect x="305" y="192" width="36" height="36" rx="10" fill="#E9F4ED"/>
+  <path d="M314 216V204L323 198L332 204V216H326V210H320V216H314Z" stroke="#238058" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="305" y="254" fill="#849088" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="550">Total buildings</text>
+  <text x="305" y="281" fill="#203128" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">24</text>
+  <rect x="482" y="264" width="44" height="20" rx="10" fill="#EAF5EE"/>
+  <text x="504" y="278" text-anchor="middle" fill="#278153" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="650">+2</text>
+
+  <rect x="582" y="192" width="36" height="36" rx="10" fill="#EEF1FA"/>
+  <path d="M591 200H609V219H591zM596 205H604M596 209H604M596 213H601" stroke="#6675B3" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="582" y="254" fill="#849088" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="550">Mapped rooms</text>
+  <text x="582" y="281" fill="#203128" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">386</text>
+  <text x="770" y="278" fill="#87938B" font-family="Inter, Arial, sans-serif" font-size="10">of 412 rooms</text>
+
+  <rect x="859" y="192" width="36" height="36" rx="10" fill="#FFF3E9"/>
+  <circle cx="877" cy="210" r="8" stroke="#D88C4B" stroke-width="1.5"/>
+  <path d="M877 205V210L881 212" stroke="#D88C4B" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="859" y="254" fill="#849088" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="550">Rooms available now</text>
+  <text x="859" y="281" fill="#203128" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">58</text>
+  <circle cx="1039" cy="274" r="3" fill="#37A66B"/>
+  <text x="1049" y="278" fill="#6F7D73" font-family="Inter, Arial, sans-serif" font-size="10">Live</text>
+
+  <rect x="1136" y="192" width="36" height="36" rx="10" fill="#F2EEFA"/>
+  <path d="M1145 219V204L1154 199L1163 204V219M1149 210H1152M1157 210H1160M1152 219V214H1157V219" stroke="#8970B4" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1136" y="254" fill="#849088" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="550">Colleges</text>
+  <text x="1136" y="281" fill="#203128" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">8</text>
+  <text x="1180" y="278" fill="#87938B" font-family="Inter, Arial, sans-serif" font-size="10">departments connected</text>
+
+  <!-- Campus map card -->
+  <rect x="286" y="321" width="700" height="390" rx="14" fill="#fff" filter="url(#shadow)"/>
+  <text x="308" y="353" fill="#25342B" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Campus map</text>
+  <text x="308" y="374" fill="#87938B" font-family="Inter, Arial, sans-serif" font-size="10">Building locations and room coverage</text>
+  <rect x="825" y="337" width="138" height="30" rx="8" fill="#F7F9F7" stroke="#E7ECE8"/>
+  <text x="841" y="356" fill="#69766D" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="550">Catanduanes State U.</text>
+  <path d="M947 349L951 353L947 357" stroke="#88958C" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="307" y="391" width="658" height="299" rx="10" fill="url(#mapBg)"/>
+  <rect x="307" y="391" width="658" height="299" rx="10" fill="url(#grid)" opacity=".7"/>
+  <path d="M324 607C414 576 461 608 531 577C599 547 671 579 736 548C804 517 874 541 947 507" stroke="#C9D8C8" stroke-width="18" stroke-linecap="round"/>
+  <path d="M324 607C414 576 461 608 531 577C599 547 671 579 736 548C804 517 874 541 947 507" stroke="#F8FBF7" stroke-width="12" stroke-linecap="round"/>
+  <path d="M465 405C482 457 480 498 500 567M727 398C707 443 709 494 736 548M871 402C859 447 863 486 876 530" stroke="#CFDCCF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M465 405C482 457 480 498 500 567M727 398C707 443 709 494 736 548M871 402C859 447 863 486 876 530" stroke="#FAFCF9" stroke-width="7" stroke-linecap="round"/>
+  <path d="M337 447C374 429 409 432 439 451M793 614C835 601 874 609 918 628M566 421C594 413 625 416 650 431" stroke="#D6E4D2" stroke-width="2" stroke-dasharray="4 5"/>
+  <rect x="380" y="467" width="64" height="39" rx="6" fill="#DCEBDD" stroke="#8CB393"/>
+  <rect x="390" y="476" width="25" height="20" rx="2" fill="#F8FBF7"/>
+  <rect x="421" y="476" width="14" height="20" rx="2" fill="#F8FBF7"/>
+  <rect x="528" y="434" width="76" height="47" rx="7" fill="#D5E9DA" stroke="#7DAE8C"/>
+  <rect x="539" y="444" width="20" height="26" rx="2" fill="#F8FBF7"/>
+  <rect x="565" y="444" width="28" height="11" rx="2" fill="#F8FBF7"/>
+  <rect x="565" y="459" width="28" height="11" rx="2" fill="#F8FBF7"/>
+  <rect x="634" y="473" width="68" height="43" rx="6" fill="#F0E7D5" stroke="#C8A97A"/>
+  <rect x="645" y="483" width="20" height="23" rx="2" fill="#FFFCF6"/>
+  <rect x="671" y="483" width="20" height="23" rx="2" fill="#FFFCF6"/>
+  <rect x="781" y="434" width="77" height="48" rx="7" fill="#D8E9DB" stroke="#83AF8B"/>
+  <rect x="792" y="444" width="24" height="28" rx="2" fill="#F8FBF7"/>
+  <rect x="822" y="444" width="25" height="12" rx="2" fill="#F8FBF7"/>
+  <rect x="822" y="460" width="25" height="12" rx="2" fill="#F8FBF7"/>
+  <rect x="587" y="542" width="77" height="43" rx="6" fill="#DCEBDD" stroke="#8CB393"/>
+  <rect x="598" y="552" width="23" height="22" rx="2" fill="#F8FBF7"/>
+  <rect x="627" y="552" width="26" height="10" rx="2" fill="#F8FBF7"/>
+  <rect x="627" y="566" width="26" height="8" rx="2" fill="#F8FBF7"/>
+  <rect x="804" y="555" width="67" height="42" rx="6" fill="#E5E2F2" stroke="#A49AC6"/>
+  <rect x="814" y="565" width="20" height="22" rx="2" fill="#FBFAFD"/>
+  <rect x="840" y="565" width="21" height="22" rx="2" fill="#FBFAFD"/>
+  <circle cx="567" cy="434" r="12" fill="#176B49" stroke="white" stroke-width="3"/>
+  <path d="M563 434H571M567 430V438" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+  <rect x="507" y="400" width="93" height="23" rx="6" fill="#fff" filter="url(#shadow)"/>
+  <text x="553.5" y="415" text-anchor="middle" fill="#2A3A30" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="650">Main Building</text>
+  <circle cx="671" cy="473" r="6" fill="#D88C4B" stroke="white" stroke-width="2"/>
+  <circle cx="832" cy="434" r="6" fill="#176B49" stroke="white" stroke-width="2"/>
+  <rect x="322" y="648" width="202" height="25" rx="7" fill="#fff" fill-opacity=".92"/>
+  <circle cx="337" cy="660" r="4" fill="#176B49"/>
+  <text x="347" y="664" fill="#637168" font-family="Inter, Arial, sans-serif" font-size="9">Mapped</text>
+  <circle cx="403" cy="660" r="4" fill="#D88C4B"/>
+  <text x="413" y="664" fill="#637168" font-family="Inter, Arial, sans-serif" font-size="9">Needs review</text>
+  <path d="M932 413V432M923 422H941" stroke="#78917D" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="932" y="406" text-anchor="middle" fill="#78917D" font-family="Inter, Arial, sans-serif" font-size="8" font-weight="700">N</text>
+
+  <!-- Right column -->
+  <rect x="1004" y="321" width="408" height="390" rx="14" fill="#fff" filter="url(#shadow)"/>
+  <text x="1027" y="353" fill="#25342B" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Room availability</text>
+  <text x="1027" y="374" fill="#87938B" font-family="Inter, Arial, sans-serif" font-size="10">Right now across campus</text>
+  <text x="1378" y="354" text-anchor="end" fill="#278153" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="650">View rooms</text>
+  <rect x="1027" y="394" width="362" height="56" rx="9" fill="#F8FAF8"/>
+  <rect x="1040" y="406" width="34" height="32" rx="8" fill="#E7F1E9"/>
+  <path d="M1048 430V416L1057 411L1066 416V430M1052 421H1055M1059 421H1062M1054 430V425H1059V430" stroke="#46845D" stroke-width="1.3" stroke-linejoin="round"/>
+  <text x="1086" y="417" fill="#34443A" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="650">Engineering Building</text>
+  <text x="1086" y="434" fill="#8A958E" font-family="Inter, Arial, sans-serif" font-size="9">12 rooms available</text>
+  <rect x="1310" y="412" width="64" height="21" rx="10.5" fill="#EAF5EE"/>
+  <text x="1342" y="426" text-anchor="middle" fill="#278153" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="650">Available</text>
+  <rect x="1027" y="459" width="362" height="56" rx="9" fill="#fff"/>
+  <rect x="1040" y="471" width="34" height="32" rx="8" fill="#F1EEF8"/>
+  <path d="M1048 495V481L1057 476L1066 481V495M1052 486H1055M1059 486H1062M1054 495V490H1059V495" stroke="#8274AB" stroke-width="1.3" stroke-linejoin="round"/>
+  <text x="1086" y="482" fill="#34443A" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="650">College of Arts &amp; Sciences</text>
+  <text x="1086" y="499" fill="#8A958E" font-family="Inter, Arial, sans-serif" font-size="9">8 rooms in use</text>
+  <rect x="1310" y="477" width="64" height="21" rx="10.5" fill="#FDF2E8"/>
+  <text x="1342" y="491" text-anchor="middle" fill="#C17B3D" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="650">In use</text>
+  <rect x="1027" y="524" width="362" height="56" rx="9" fill="#F8FAF8"/>
+  <rect x="1040" y="536" width="34" height="32" rx="8" fill="#E7F1E9"/>
+  <path d="M1048 560V546L1057 541L1066 546V560M1052 551H1055M1059 551H1062M1054 560V555H1059V560" stroke="#46845D" stroke-width="1.3" stroke-linejoin="round"/>
+  <text x="1086" y="547" fill="#34443A" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="650">Administration Building</text>
+  <text x="1086" y="564" fill="#8A958E" font-family="Inter, Arial, sans-serif" font-size="9">6 rooms available</text>
+  <rect x="1310" y="542" width="64" height="21" rx="10.5" fill="#EAF5EE"/>
+  <text x="1342" y="556" text-anchor="middle" fill="#278153" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="650">Available</text>
+  <rect x="1027" y="589" width="362" height="56" rx="9" fill="#fff"/>
+  <rect x="1040" y="601" width="34" height="32" rx="8" fill="#E7F1E9"/>
+  <path d="M1048 625V611L1057 606L1066 611V625M1052 616H1055M1059 616H1062M1054 625V620H1059V625" stroke="#46845D" stroke-width="1.3" stroke-linejoin="round"/>
+  <text x="1086" y="612" fill="#34443A" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="650">Library &amp; Learning Center</text>
+  <text x="1086" y="629" fill="#8A958E" font-family="Inter, Arial, sans-serif" font-size="9">3 rooms need review</text>
+  <rect x="1310" y="607" width="64" height="21" rx="10.5" fill="#FBEBE7"/>
+  <text x="1342" y="621" text-anchor="middle" fill="#BC6552" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="650">Review</text>
+  <path d="M1027 665H1389" stroke="#E9EEEA"/>
+  <text x="1027" y="686" fill="#839087" font-family="Inter, Arial, sans-serif" font-size="9">Updated just now</text>
+  <circle cx="1378" cy="682" r="4" fill="#42A36C"/>
+
+  <!-- Bottom cards -->
+  <rect x="286" y="732" width="700" height="238" rx="14" fill="#fff" filter="url(#shadow)"/>
+  <text x="308" y="764" fill="#25342B" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Building directory</text>
+  <text x="308" y="785" fill="#87938B" font-family="Inter, Arial, sans-serif" font-size="10">Recently updated locations</text>
+  <text x="957" y="765" text-anchor="end" fill="#278153" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="650">See all buildings</text>
+  <path d="M308 802H964" stroke="#EDF1ED"/>
+  <text x="322" y="821" fill="#9AA59E" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="650">BUILDING</text>
+  <text x="667" y="821" fill="#9AA59E" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="650">ROOMS</text>
+  <text x="779" y="821" fill="#9AA59E" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="650">MAP STATUS</text>
+  <text x="924" y="821" fill="#9AA59E" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="650">UPDATED</text>
+  <path d="M308 831H964M308 879H964M308 927H964" stroke="#F0F3F0"/>
+  <rect x="321" y="841" width="30" height="28" rx="7" fill="#E7F1E9"/>
+  <path d="M328 863V850L336 846L344 850V863M331 855H334M338 855H341" stroke="#46845D" stroke-width="1.1"/>
+  <text x="362" y="853" fill="#34443A" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="650">Main Building</text>
+  <text x="362" y="866" fill="#929D95" font-family="Inter, Arial, sans-serif" font-size="9">Administration</text>
+  <text x="667" y="858" fill="#526158" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="550">48</text>
+  <circle cx="786" cy="855" r="3" fill="#39A46A"/>
+  <text x="796" y="859" fill="#607067" font-family="Inter, Arial, sans-serif" font-size="9">Complete</text>
+  <text x="924" y="858" fill="#819087" font-family="Inter, Arial, sans-serif" font-size="9">Today</text>
+  <rect x="321" y="889" width="30" height="28" rx="7" fill="#EEF1FA"/>
+  <path d="M328 911V898L336 894L344 898V911M331 903H334M338 903H341" stroke="#6675B3" stroke-width="1.1"/>
+  <text x="362" y="901" fill="#34443A" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="650">Engineering Building</text>
+  <text x="362" y="914" fill="#929D95" font-family="Inter, Arial, sans-serif" font-size="9">Engineering &amp; Technology</text>
+  <text x="667" y="906" fill="#526158" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="550">36</text>
+  <circle cx="786" cy="903" r="3" fill="#39A46A"/>
+  <text x="796" y="907" fill="#607067" font-family="Inter, Arial, sans-serif" font-size="9">Complete</text>
+  <text x="924" y="906" fill="#819087" font-family="Inter, Arial, sans-serif" font-size="9">Yesterday</text>
+  <rect x="321" y="937" width="30" height="28" rx="7" fill="#FFF3E9"/>
+  <path d="M328 959V946L336 942L344 946V959M331 951H334M338 951H341" stroke="#CB8A4F" stroke-width="1.1"/>
+  <text x="362" y="949" fill="#34443A" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="650">Library &amp; Learning Center</text>
+  <text x="362" y="962" fill="#929D95" font-family="Inter, Arial, sans-serif" font-size="9">Academic services</text>
+  <text x="667" y="954" fill="#526158" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="550">22</text>
+  <circle cx="786" cy="951" r="3" fill="#D88C4B"/>
+  <text x="796" y="955" fill="#A66C38" font-family="Inter, Arial, sans-serif" font-size="9">3 to review</text>
+  <text x="924" y="954" fill="#819087" font-family="Inter, Arial, sans-serif" font-size="9">Oct 30</text>
+
+  <rect x="1004" y="732" width="408" height="238" rx="14" fill="#fff" filter="url(#shadow)"/>
+  <text x="1027" y="764" fill="#25342B" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Recent activity</text>
+  <text x="1027" y="785" fill="#87938B" font-family="Inter, Arial, sans-serif" font-size="10">Latest changes from your team</text>
+  <circle cx="1044" cy="823" r="13" fill="#E9F4ED"/>
+  <path d="M1039 823L1043 827L1050 819" stroke="#278153" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1067" y="819" fill="#3D4B42" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="600">New room added</text>
+  <text x="1067" y="835" fill="#86928A" font-family="Inter, Arial, sans-serif" font-size="9">Room 204 · Engineering Building</text>
+  <text x="1386" y="823" text-anchor="end" fill="#A0AAA3" font-family="Inter, Arial, sans-serif" font-size="9">10 min</text>
+  <path d="M1044 838V856" stroke="#E4EBE5" stroke-width="1.4"/>
+  <circle cx="1044" cy="870" r="13" fill="#EEF1FA"/>
+  <path d="M1039 870H1049M1044 865V875" stroke="#6675B3" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="1067" y="866" fill="#3D4B42" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="600">Building map updated</text>
+  <text x="1067" y="882" fill="#86928A" font-family="Inter, Arial, sans-serif" font-size="9">Main Building · by Maria S.</text>
+  <text x="1386" y="870" text-anchor="end" fill="#A0AAA3" font-family="Inter, Arial, sans-serif" font-size="9">1 hour</text>
+  <path d="M1044 885V903" stroke="#E4EBE5" stroke-width="1.4"/>
+  <circle cx="1044" cy="917" r="13" fill="#FFF3E9"/>
+  <path d="M1044 911V918M1044 922V923" stroke="#D18746" stroke-width="1.7" stroke-linecap="round"/>
+  <text x="1067" y="913" fill="#3D4B42" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="600">Room flagged for review</text>
+  <text x="1067" y="929" fill="#86928A" font-family="Inter, Arial, sans-serif" font-size="9">Library · Room 12</text>
+  <text x="1386" y="917" text-anchor="end" fill="#A0AAA3" font-family="Inter, Arial, sans-serif" font-size="9">3 hours</text>
+  <text x="1027" y="955" fill="#278153" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="650">View activity log</text>
+</svg>

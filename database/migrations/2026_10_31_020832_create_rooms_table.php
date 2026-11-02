@@ -33,6 +33,9 @@ return new class extends Migration
             $table->boolean('is_available')
                 ->default(false);
             
+            $table->boolean('for_use')
+                ->default(true);
+
             // Specifications of Room
             $table->json('equipment')
                 ->nullable();

@@ -16,6 +16,7 @@ class Room extends Model
         'custodian_id',
 
         'is_available',
+        'for_use',
 
         // Specifications
         'equipment',
@@ -29,6 +30,7 @@ class Room extends Model
     {
         return [
             'is_available' => 'boolean',
+            'for_use' => 'boolean',
             'equipment' => 'array'
         ];
     }
