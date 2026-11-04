@@ -3,16 +3,18 @@
 namespace App\Http\Controllers;
 
 use App\Models\Room;
+
 use Illuminate\Http\Request;
+use Illuminate\View\View;
 
 class RoomController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request): View
     {
-        //
+        return view('admin.room');
     }
 
     /**

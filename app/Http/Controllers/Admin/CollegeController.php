@@ -1,11 +1,9 @@
 <?php
 
 namespace App\Http\Controllers\Admin;
-
 use App\Http\Controllers\Controller;
 
 use App\Http\Requests\StoreCollegeRequest;
-// use App\Http\Requests\UpdateCollegeRequest;
 
 use App\Models\College;
 
@@ -18,16 +16,18 @@ class CollegeController extends Controller
     /**
      * Display a listing of colleges along with CRUD forms.
      */
-    public function index(Request $request): View
+    public function index(Request $request): View 
     {
         $colleges = College::latest()->get();
-        return view('admin.colleges.college', compact('colleges'));
+        return view('admin.college', compact('colleges'));
     }
 
-    public function store(StoreCollegeRequest $request): RedirectResponse
+    public function store(StoreCollegeRequest $request): RedirectResponse // STORE
     {
         $validated = $request->validated();
 
+        echo "RECEIVED";
+        
         College::create($validated);
 
         return redirect()->route('admin.colleges.index')
