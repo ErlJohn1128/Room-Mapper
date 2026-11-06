@@ -24,6 +24,7 @@ Route::prefix('admin')->name('admin.')
 
         Route::resource('colleges', CollegeController::class);
         Route::resource('buildings', BuildingController::class);
-        Route::resource('floors', FloorController::class);
+        Route::resource('floors', FloorController::class); 
         Route::resource('rooms', RoomController::class);
+        Route::resource('settings', RoomController::class); // To be change
     });
