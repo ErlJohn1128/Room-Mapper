@@ -12,6 +12,6 @@ class BuildingController extends Controller
 {
     public function index(Request $request): View
     {
-        return view('admin.building');
+        return view('admin.buildings.index');
     }
 }

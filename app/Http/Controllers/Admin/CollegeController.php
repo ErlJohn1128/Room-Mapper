@@ -19,7 +19,17 @@ class CollegeController extends Controller
     public function index(Request $request): View 
     {
         $colleges = College::latest()->get();
-        return view('admin.college', compact('colleges'));
+        return view('admin.colleges.index', compact('colleges'));
+    }
+
+    public function create(Request $request): View
+    {
+        return view('admin.colleges.create');
+    }
+
+    public function edit(Request $request): View
+    {
+        return view('admin.colleges.edit');
     }
 
     public function store(StoreCollegeRequest $request): RedirectResponse // STORE

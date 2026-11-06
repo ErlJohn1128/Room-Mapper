@@ -14,7 +14,7 @@ class RoomController extends Controller
      */
     public function index(Request $request): View
     {
-        return view('admin.room');
+        return view('admin.rooms.index');
     }
 
     /**
