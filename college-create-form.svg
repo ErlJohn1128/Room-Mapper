@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1440" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3F7F9"/>
+      <stop offset="1" stop-color="#EAF1F4"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="40" y1="70" x2="275" y2="355" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#21A695"/>
+      <stop offset="1" stop-color="#168477"/>
+    </linearGradient>
+    <filter id="shadow" x="350" y="146" width="1016" height="806" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="12"/>
+      <feGaussianBlur stdDeviation="16"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.12 0 0 0 0 0.20 0 0 0 0 0.25 0 0 0 0.10 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <style>
+      text { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .label { font-size: 13px; font-weight: 650; fill: #344A55; }
+      .placeholder { font-size: 14px; fill: #8799A2; }
+      .small { font-size: 12px; fill: #7B8C94; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="1000" fill="url(#bg)"/>
+  <circle cx="1285" cy="147" r="220" fill="#D9EFEB" opacity=".55"/>
+  <circle cx="1300" cy="146" r="145" fill="#E8F4F2" opacity=".8"/>
+
+  <rect x="0" y="0" width="286" height="1000" fill="#142B37"/>
+  <path d="M0 0H286V13H0z" fill="#21A695"/>
+
+  <rect x="32" y="37" width="42" height="42" rx="13" fill="url(#brand)"/>
+  <path d="M42 61V51.5L53 44l11 7.5V61H57v-8h-7v8h-8Z" fill="white"/>
+  <text x="86" y="57" font-size="16" font-weight="750" letter-spacing=".4" fill="#F6FAFB">CAMPUS</text>
+  <text x="86" y="74" font-size="10" font-weight="600" letter-spacing="2.1" fill="#83A0AA">ROOM MAPPER</text>
+
+  <text x="32" y="129" font-size="10" font-weight="700" letter-spacing="1.7" fill="#7D969F">WORKSPACE</text>
+  <rect x="20" y="149" width="246" height="48" rx="10" fill="#203C48"/>
+  <rect x="20" y="149" width="3" height="48" rx="1.5" fill="#35B8A4"/>
+  <path d="M41 166h16v13H41zM44 162h10v4H44zM45 169h3v3h-3zm5 0h3v3h-3z" stroke="#78D7CA" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="69" y="179" font-size="14" font-weight="650" fill="#F5FAFB">Colleges</text>
+  <path d="m239 168 4 4-4 4" stroke="#7D969F" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g fill="#A4B5BB">
+    <rect x="42" y="222" width="15" height="13" rx="2" stroke="#91A7AF" stroke-width="1.5"/>
+    <path d="M40 237h19M46 226h2m4 0h2m-8 4h2m4 0h2" stroke="#91A7AF" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="69" y="235" font-size="13" font-weight="500" fill="#A4B5BB">Buildings</text>
+    <path d="M41 268h17v13H41zM44 264h11v4H44zM45 272h3v3h-3zm6 0h3v3h-3z" stroke="#91A7AF" stroke-width="1.5" stroke-linejoin="round"/>
+    <text x="69" y="278" font-size="13" font-weight="500" fill="#A4B5BB">Rooms</text>
+    <circle cx="49.5" cy="318.5" r="8" stroke="#91A7AF" stroke-width="1.5"/>
+    <path d="M49.5 314v5l3 2" stroke="#91A7AF" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="69" y="323" font-size="13" font-weight="500" fill="#A4B5BB">Schedules</text>
+  </g>
+
+  <line x1="32" y1="370" x2="254" y2="370" stroke="#314954"/>
+  <text x="32" y="402" font-size="10" font-weight="700" letter-spacing="1.7" fill="#7D969F">PREFERENCES</text>
+  <g fill="#A4B5BB">
+    <circle cx="49" cy="439" r="8" stroke="#91A7AF" stroke-width="1.5"/>
+    <path d="M49 427v3m0 18v3m12-12h-3m-18 0h-3m20.5-8.5-2.2 2.2m-12.6 12.6-2.2 2.2m17 0-2.2-2.2m-12.6-12.6-2.2-2.2" stroke="#91A7AF" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="69" y="444" font-size="13" font-weight="500" fill="#A4B5BB">Settings</text>
+  </g>
+
+  <rect x="20" y="889" width="246" height="78" rx="12" fill="#203C48"/>
+  <circle cx="53" cy="928" r="19" fill="#D5EBE7"/>
+  <text x="53" y="933" text-anchor="middle" font-size="12" font-weight="750" fill="#1C7168">EA</text>
+  <text x="83" y="923" font-size="13" font-weight="650" fill="#F3F7F8">Earl Bozar</text>
+  <text x="83" y="943" font-size="11" fill="#92A8AF">Administrator</text>
+  <circle cx="241" cy="928" r="2" fill="#9BB0B7"/>
+  <circle cx="248" cy="928" r="2" fill="#9BB0B7"/>
+  <circle cx="255" cy="928" r="2" fill="#9BB0B7"/>
+
+  <rect x="286" y="0" width="1154" height="78" fill="#FFFFFF" opacity=".94"/>
+  <line x1="286" y1="78" x2="1440" y2="78" stroke="#E4EAED"/>
+  <text x="330" y="47" font-size="13" font-weight="550" fill="#8A9AA2">Administration</text>
+  <path d="m429 42 4 4-4 4" stroke="#A8B5BA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="447" y="47" font-size="13" font-weight="650" fill="#344A55">Colleges</text>
+  <path d="m503 42 4 4-4 4" stroke="#A8B5BA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="521" y="47" font-size="13" font-weight="650" fill="#344A55">Create new</text>
+
+  <circle cx="1326" cy="39" r="17" fill="#F2F6F7"/>
+  <path d="M1321 39a5 5 0 0 1 10 0v5l2 2h-14l2-2v-5Zm4 10h2" stroke="#607780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1338" cy="27" r="4" fill="#E47C68" stroke="white" stroke-width="2"/>
+  <circle cx="1380" cy="39" r="18" fill="#D7EBE7"/>
+  <text x="1380" y="44" text-anchor="middle" font-size="12" font-weight="750" fill="#1B6F65">EA</text>
+
+  <text x="345" y="142" font-size="12" font-weight="600" fill="#188B7E">COLLEGE DIRECTORY</text>
+  <text x="345" y="181" font-size="29" font-weight="750" letter-spacing="-.5" fill="#18323E">Create a college</text>
+  <text x="345" y="207" font-size="14" fill="#70828A">Add a college to your campus directory and organize its details.</text>
+  <rect x="1180" y="131" width="169" height="38" rx="9" fill="#FFFFFF" stroke="#DDE6E9"/>
+  <path d="m1200 150 7-7 7 7m-7-7v14" stroke="#66808A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1223" y="155" font-size="12" font-weight="650" fill="#526A74">Import colleges</text>
+
+  <g filter="url(#shadow)">
+    <rect x="345" y="236" width="984" height="680" rx="16" fill="white"/>
+  </g>
+  <rect x="345.5" y="236.5" width="983" height="679" rx="15.5" stroke="#E8EEF0"/>
+
+  <circle cx="385" cy="280" r="19" fill="#E7F5F2"/>
+  <path d="M375 283v-9l10-7 10 7v9h-7v-7h-6v7h-7Z" stroke="#168F81" stroke-width="1.6" stroke-linejoin="round"/>
+  <text x="418" y="277" font-size="16" font-weight="700" fill="#243E49">College information</text>
+  <text x="418" y="298" font-size="12" fill="#819098">Enter the basic details for this college.</text>
+  <rect x="1245" y="263" width="49" height="24" rx="12" fill="#F0F6F5"/>
+  <circle cx="1260" cy="275" r="3" fill="#20A392"/>
+  <text x="1269" y="279" font-size="10" font-weight="650" fill="#3E716B">DRAFT</text>
+  <line x1="345" y1="322" x2="1329" y2="322" stroke="#EDF1F2"/>
+
+  <text class="label" x="389" y="365">College name <tspan fill="#D86B5A">*</tspan></text>
+  <rect x="389" y="378" width="896" height="48" rx="8" fill="#FFFFFF" stroke="#D7E1E4"/>
+  <text class="placeholder" x="405" y="408">e.g. College of Engineering</text>
+
+  <text class="label" x="389" y="466">College code <tspan fill="#D86B5A">*</tspan></text>
+  <text class="small" x="1285" y="466" text-anchor="end">Unique identifier used across the system</text>
+  <rect x="389" y="479" width="424" height="48" rx="8" fill="#FFFFFF" stroke="#D7E1E4"/>
+  <text class="placeholder" x="405" y="509">e.g. COE</text>
+
+  <text class="label" x="839" y="466">Campus <tspan fill="#D86B5A">*</tspan></text>
+  <rect x="839" y="479" width="446" height="48" rx="8" fill="#FFFFFF" stroke="#D7E1E4"/>
+  <text class="placeholder" x="855" y="509">Select a campus</text>
+  <path d="m1256 498 6 6 6-6" stroke="#81949C" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text class="label" x="389" y="567">Dean or department head</text>
+  <rect x="389" y="580" width="424" height="48" rx="8" fill="#FFFFFF" stroke="#D7E1E4"/>
+  <text class="placeholder" x="405" y="610">Enter full name</text>
+
+  <text class="label" x="839" y="567">Contact email</text>
+  <rect x="839" y="580" width="446" height="48" rx="8" fill="#FFFFFF" stroke="#D7E1E4"/>
+  <path d="M856 599h18v13h-18z" stroke="#91A2A9" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="m857 600 8 6 8-6" stroke="#91A2A9" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="placeholder" x="884" y="610">name@university.edu</text>
+
+  <text class="label" x="389" y="668">Description</text>
+  <rect x="389" y="681" width="896" height="93" rx="8" fill="#FFFFFF" stroke="#D7E1E4"/>
+  <text class="placeholder" x="405" y="709">Briefly describe this college and its programs...</text>
+  <text x="1267" y="758" text-anchor="end" font-size="11" fill="#A0ADB2">0 / 300</text>
+
+  <line x1="389" y1="803" x2="1285" y2="803" stroke="#EDF1F2"/>
+  <circle cx="400" cy="839" r="10" fill="#E5F4F1"/>
+  <path d="m396 839 3 3 6-7" stroke="#178E80" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="418" y="837" font-size="13" font-weight="650" fill="#344A55">Set as active</text>
+  <text x="418" y="855" font-size="11" fill="#82929A">Active colleges are available when assigning rooms.</text>
+
+  <line x1="345" y1="880" x2="1329" y2="880" stroke="#EDF1F2"/>
+  <rect x="1018" y="895" width="112" height="42" rx="8" fill="#FFFFFF" stroke="#D7E1E4"/>
+  <text x="1074" y="921" text-anchor="middle" font-size="13" font-weight="650" fill="#526A74">Cancel</text>
+  <rect x="1142" y="895" width="143" height="42" rx="8" fill="#178F82"/>
+  <path d="M1161 916h13m-6.5-6.5v13" stroke="white" stroke-width="1.7" stroke-linecap="round"/>
+  <text x="1212" y="921" text-anchor="middle" font-size="13" font-weight="700" fill="white">Create college</text>
+</svg>

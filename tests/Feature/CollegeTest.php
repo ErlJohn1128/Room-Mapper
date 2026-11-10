@@ -22,13 +22,14 @@ class CollegeTest extends TestCase
     public function test_can_store_a_new_college(): void
     {
 
-        $response = $this->post(route('admin.colleges.store'), [
+        $response = $this->followingRedirects()->post(route('admin.colleges.store'), [
             'name' => 'College of Computing Studies',
             'code' => 'CCS',
         ]);
 
-        $response->assertRedirect(route('admin.colleges.index'));
-        $response->assertSessionHas('success', 'College created successfully!');
+        $response->assertOk()
+            ->assertSee('College created successfully!')
+            ->assertSee('role="status"', false);
 
         // 3. Assert the record actually exists in the database table
         $this->assertDatabaseHas('colleges', [

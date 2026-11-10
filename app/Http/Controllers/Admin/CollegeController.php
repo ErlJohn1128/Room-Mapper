@@ -19,6 +19,7 @@ class CollegeController extends Controller
     public function index(Request $request): View 
     {
         $colleges = College::latest()->get();
+
         return view('admin.colleges.index', compact('colleges'));
     }
 
@@ -35,12 +36,9 @@ class CollegeController extends Controller
     public function store(StoreCollegeRequest $request): RedirectResponse // STORE
     {
         $validated = $request->validated();
-
-        echo "RECEIVED";
         
         College::create($validated);
-
-        return redirect()->route('admin.colleges.index')
-            ->with('success', 'College created successfully!');
+        
+        return back()->with('success', 'College created successfully!');
     }
 }
