@@ -17,8 +17,16 @@ class Building extends Model
         'start_time',
         'end_time',
 
-        'college_id'
+        'college_id',
+        'is_active'
     ];
+
+    protected function casts(): array
+    {
+        return [
+            'is_active' => 'boolean'
+        ];
+    }
 
     public function college(): BelongsTo
     {

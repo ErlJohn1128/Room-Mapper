@@ -31,8 +31,32 @@
         <div class="bg-white mt-4 px-8 mb-2">
             <hr class="my-3 border-gray-300">
 
-            <form class="flex flex-col gap-4">
+            <form action="{{ route('admin.colleges.update', $college->id) }}" method="POST" class="flex flex-col gap-4">
             @csrf
+            @method('PATCH')
+
+                @if ($errors->any())
+                <div class="flex flex-col gap-2">
+                    @error('name')
+                        <div class="flex bg-red-100/80 text-red-500 rounded-md font-semibold items-center gap-2 px-4 py-2 text-sm">
+                            <div class="select-none w-4 h-4 flex items-center justify-center">
+                                <img class="flex items-center justify-center" src="{{ asset('images/info-icon.svg') }}" alt="Info" />
+                            </div>
+                            {{ $message }}
+                        </div>
+                    @enderror
+                    
+                    @error('code')
+                        <div class="flex bg-red-100/80 text-red-500 rounded-md font-semibold items-center gap-2 px-4 py-2 text-sm">
+                            <div class="select-none w-4 h-4 flex items-center justify-center">
+                                <img class="flex items-center justify-center" src="{{ asset('images/info-icon.svg') }}" alt="Info" />
+                            </div>
+                            {{ $message }}
+                        </div>
+                    @enderror
+                </div>
+                @endif
+                
                 <div class="flex flex-col gap-2">
                     <h5 class="text-md font-semibold text-gray-700">
                         College Name
@@ -40,7 +64,9 @@
                     </h5>
                     <input class="w-full px-4 py-2 text-sm border border-gray-700 focus:outline-none focus:border-gray-400 focus:ring-4 focus:ring-gray-100 transition-all"
                         type="text"
+                        name="name"
                         placeholder="Enter College Name"
+                        value="{{ $college->name }}"
                     />
                 </div>
 
@@ -51,7 +77,9 @@
                     </h5>
                     <input class="w-full px-4 py-2 text-sm border border-gray-700 focus:outline-none focus:border-gray-400 focus:ring-4 focus:ring-gray-100 transition-all"
                         type="text"
+                        name="code"
                         placeholder="Enter College Abbreviation (e.g CICT, COS)"
+                        value="{{ $college->code }}"
                     />
                 </div>
 

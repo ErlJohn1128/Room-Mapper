@@ -10,9 +10,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="m-0 font-sans antialiased bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
-    <div class="bg-blue-100 min-h-screen flex">
-        <nav class="bg-white w-75">
+<body class="m-0 h-screen overflow-hidden font-sans antialiased bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <div class="flex h-screen overflow-hidden bg-blue-100">
+        <nav class="h-screen w-75 shrink-0 overflow-y-auto bg-white">
             <div class="py-6 px-8 flex gap-4">
                 <div class="w-12 h-12 rounded-md bg-gray-300 text-2xl font-bold flex justify-center items-center">
                     L
@@ -49,11 +49,11 @@
                         Manage Buildings
                     </a>
 
-                    <!-- Room -->
+                    <!-- Manage Rooms -->
                     <a href="{{ route('admin.rooms.index') }}"
                     class="pl-4 py-3 flex items-center gap-2 rounded-sm transition-colors {{ request()->routeIs('admin.rooms.*') ? 'bg-emerald-100 hover:bg-emerald-200 text-emerald-700 font-bold border-l-2 border-emerald-700' : 'hover:bg-gray-200' }}">
-                        <img class="w-4.5" src="{{ asset('images/room-icon.svg') }}" alt="Room">
-                        Room
+                        <img class="w-4.5" src="{{ asset('images/room-icon.svg') }}" alt="Rooms">
+                        Manage Rooms
                     </a>
                 </div>
 
@@ -72,8 +72,8 @@
             </div>
         </nav>
 
-        <div class="flex-1">
-            <header class="flex bg-gray-100 top-0 left-75 h-14">
+        <div class="flex min-w-0 flex-1 flex-col overflow-hidden">
+            <header class="sticky top-0 z-30 flex h-14 shrink-0 bg-gray-100">
                 <!-- Directory -->
                 <div class="flex flex-1 justify-start items-center ml-8 text-gray-500">
                     @yield('directory')
@@ -102,7 +102,7 @@
                 </div>
             </header>
             
-            <main class="p-8">
+            <main class="min-h-0 flex-1 overflow-y-auto p-8">
                 @yield('content')
             </main>
         </div>

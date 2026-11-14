@@ -19,6 +19,11 @@ class CollegeTest extends TestCase
 {
     use RefreshDatabase;
 
+    public function test_create_page_is_not_matched_as_a_college_id(): void
+    {
+        $this->get('/admin/colleges/create')->assertOk();
+    }
+
     public function test_can_store_a_new_college(): void
     {
 

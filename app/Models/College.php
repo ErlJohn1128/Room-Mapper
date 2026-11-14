@@ -10,8 +10,16 @@ class College extends Model
 {
     protected $fillable = [
         'name',
-        'code'
+        'code',
+        'is_active'
     ];
+
+    protected function casts(): array
+    {
+        return [
+            'is_active' => 'boolean'
+        ];
+    }
 
     // Direct Relation
     public function buildings(): HasMany
